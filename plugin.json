@@ -1,0 +1,15 @@
+{
+    "id": "nodebb-plugin-fixmeta",
+    "name": "NodeBB metadata fix",
+    "description": "Check if og:image start with // and replace with correct protocol from request",
+    "url": "https://github.com/frnwtr/nodebb-plugin-fixmeta",
+    "library": "./library.js",
+    "hooks": [
+        {
+            "hook": "filter:middleware.renderHeader",
+            "method": "parse",
+            "callbacked": true,
+            "priority": 2
+        }
+    ]
+}
