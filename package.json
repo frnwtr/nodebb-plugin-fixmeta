@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-fixmeta",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "nbbpm": {
     "compatibility": "^0.9.0"
   },
@@ -10,22 +10,23 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-        "name": "Walter Franchetti",
-        "email": "walter.franchetti@gmail.com"
-    },
+    "name": "Walter Franchetti",
+    "email": "walter.franchetti@gmail.com"
+  },
   "license": "LGPL",
   "dependencies": {
+    "html-entities": "^1.2.0",
     "lodash": "^3.10.1",
     "xregexp": "^3.0.0"
   },
   "repository": {
-        "type": "git",
-        "url": "https://github.com/frnwtr/nodebb-plugin-fixmeta.git"
-    },
+    "type": "git",
+    "url": "https://github.com/frnwtr/nodebb-plugin-fixmeta.git"
+  },
   "keywords": [
-        "nodebb",
-        "plugin",
-        "metaTags",
-        "fix"
+    "nodebb",
+    "plugin",
+    "metaTags",
+    "fix"
   ]
 }
