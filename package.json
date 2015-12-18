@@ -22,10 +22,10 @@
         "type": "git",
         "url": "https://github.com/frnwtr/nodebb-plugin-fixmeta.git"
     },
-    "keywords": [
+  "keywords": [
         "nodebb",
         "plugin",
         "metaTags",
         "fix"
-    ],
+  ]
 }
